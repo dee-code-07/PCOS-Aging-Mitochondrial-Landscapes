@@ -1,7 +1,28 @@
-# Single-Cell and Spatial Landscapes of Mitochondrial Dysfunction in PCOS and Ovarian Aging
+# Single-cell and spatial landscape of mitochondrial dysfunction in PCOS and ovarian aging
+
+**Authors:** Deeksha H and Budheswar Dehury*  
+**Affiliation:** Department of Bioinformatics, Manipal School of Life Sciences, Manipal Academy of Higher Education, Manipal-576104, India  
+**Correspondence:** budheswar.dehury@manipal.edu
+
+---
 
 ## Overview
-This repository contains the official R implementation for the multi-modal analysis of mitochondrial dysfunction in Polycystic Ovary Syndrome (PCOS) and Ovarian Aging. We employ integrated single-cell RNA sequencing (scRNA-seq) and Spatial Transcriptomics to map the cellular and spatial dynamics of mitochondrial decline across these two conditions.
+This repository contains the official R implementation for the multi-modal analysis of mitochondrial dysfunction in Polycystic Ovary Syndrome (PCOS) and Ovarian Aging. By integrating mouse single-cell RNA-seq and Visium spatial transcriptomics, this study maps the cellular and spatial dynamics of mitochondrial decline across these two conditions.
+
+### Key Findings
+- **Accelerated Molecular Aging:** Granulosa cells in PCOS occupy a transcriptional state intermediate between young and aged cells, suggesting accelerated ovarian aging at single-cell resolution.
+- **Convergent Markers:** Identified 83 concordantly dysregulated shared genes and 17 high-confidence priority candidates (*Gstp1*, *Gja1*, *Fst*).
+- **Mitochondrial-Senescence Disconnect:** PCOS presents a unique disconnect where high bioenergetic stress coincides with a blunted physiological senescence program required for luteinization.
+- **Divergent OXPHOS Trajectories:** High-dimensional co-expression network analysis (hdWGCNA) uncovered that Oxidative Phosphorylation (OXPHOS) is suppressed in PCOS but upregulated in aging, pointing to distinct routes to follicular failure.
+
+---
+
+## Data Availability
+The analysis uses publicly available datasets from the Gene Expression Omnibus (GEO):
+- **PCOS scRNA-seq:** [GSE268919](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE268919)
+- **Ovarian Aging scRNA-seq:** [GSE232309](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE232309)
+- **PCOS Spatial Transcriptomics:** [GSE296728](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE296728)
+- **Ovarian Aging Spatial Transcriptomics:** [GSE188257](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE188257)
 
 ---
 
