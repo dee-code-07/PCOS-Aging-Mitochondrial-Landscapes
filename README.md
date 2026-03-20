@@ -64,12 +64,3 @@ Scripts are numbered sequentially. For best results, follow the order:
 1. Run `01_preprocessing` to generate integrated objects.
 2. Execute `02_analysis` folders to reproduce manuscript figures.
 3. Consult `03_supplementary` for deeper metric validation.
-
----
-
-## Citation
-If you use these scripts or find this research helpful, please cite:
-> *Manuscript Title*, Authors, Journal (Year). DOI: [Link]
-
-## Contact
-For questions regarding the code or data, please open an issue or contact the authors directly.
