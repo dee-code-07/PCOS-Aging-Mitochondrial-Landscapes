@@ -1,0 +1,23 @@
+# R specific
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+.Rdata
+
+# Data and Outputs
+*.rds
+*.tiff
+*.png
+*.pdf
+*.csv
+*.xlsx
+*.cys
+/output/
+/raw/
+/data/
+
+# System
+.DS_Store
+*.swp
+*~
