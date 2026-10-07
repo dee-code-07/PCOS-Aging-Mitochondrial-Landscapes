@@ -45,11 +45,7 @@ The core analysis scripts used to generate primary figures:
 - **`fig6_spatial`**: Spatially variable gene (SVG) detection and spatial cell-type mapping.
 
 ### 📂 `03_supplementary/`
-Extensive validation and supplementary analyses including:
-- **`26-32`**: Venn overlap, gene prioritization, network analysis, transcription factor (TF) enrichment, and semantic similarity.
-- **`33-36`**: Cross-dataset confounder analysis and robust permutation null models.
-- **`37-40`**: Sensitivity analyses (RNA vs SCT assays), granulosa luteal sub-cluster validations, tier 1 gene transparency, and spatial leave-one-out robustness.
-- **`41-45`**: Extended pseudotime investigations, including joint pseudotime estimations using Harmony and RPCA, multi-lineage Slingshot analysis, and final table generation.
+Additional validation and supplementary analyses including Venn overlap, gene prioritization, network analysis, and transcription factor (TF) enrichment.
 
 ---
 
