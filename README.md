@@ -1,4 +1,4 @@
-# Single-cell and spatial landscape of mitochondrial dysfunction in PCOS and ovarian aging
+# Transcriptomic parallels between polycystic ovary syndrome and ovarian aging, and a distinct mitochondrial--senescence disconnect in PCOS
 
 **Authors:** Deeksha H and Budheswar Dehury*  
 **Affiliation:** Department of Bioinformatics, Manipal School of Life Sciences, Manipal Academy of Higher Education, Manipal-576104, India  
@@ -10,9 +10,9 @@
 This repository contains the official R implementation for the multi-modal analysis of mitochondrial dysfunction in Polycystic Ovary Syndrome (PCOS) and Ovarian Aging. By integrating mouse single-cell RNA-seq and Visium spatial transcriptomics, this study maps the cellular and spatial dynamics of mitochondrial decline across these two conditions.
 
 ### Key Findings
-- **Accelerated Molecular Aging:** Granulosa cells in PCOS occupy a transcriptional state intermediate between young and aged cells, suggesting accelerated ovarian aging at single-cell resolution.
-- **Convergent Markers:** Identified 83 concordantly dysregulated shared genes and 17 high-confidence priority candidates (*Gstp1*, *Gja1*, *Fst*).
-- **Mitochondrial-Senescence Disconnect:** PCOS presents a unique disconnect where high bioenergetic stress coincides with a blunted physiological senescence program required for luteinization.
+- **Shared Transcriptomic Core:** PCOS and aging share a small set of 83 concordantly dysregulated genes within otherwise largely divergent programs. Identified 17 high-confidence priority candidates (*Gstp1*, *Gja1*, *Fst*) as shared markers of follicular dysfunction.
+- **Granulosa Maturation Deficits:** Granulosa cell maturation is significantly altered in both PCOS and aging, though via distinct, condition-specific trajectories.
+- **Mitochondrial-Senescence Disconnect:** PCOS presents a unique disconnect where high bioenergetic stress coincides with reduced senescence-associated transcriptional scores (a blunted physiological senescence program required for luteinization)—a pattern most pronounced in luteal cells and confirmed in spatially intact tissue.
 - **Divergent OXPHOS Trajectories:** High-dimensional co-expression network analysis (hdWGCNA) uncovered that Oxidative Phosphorylation (OXPHOS) is suppressed in PCOS but upregulated in aging, pointing to distinct routes to follicular failure.
 
 ---
@@ -73,7 +73,7 @@ Scripts are numbered sequentially. For best results, follow the order:
 
 ## Citation
 If you use these scripts or find this research helpful, please cite:
-> *Manuscript Title*, Authors, Journal (Year). DOI: [Link]
+> *Transcriptomic parallels between polycystic ovary syndrome and ovarian aging, and a distinct mitochondrial--senescence disconnect in PCOS*, Deeksha H and Budheswar Dehury, Journal (Year). DOI: [Link]
 
 ## Contact
 For questions regarding the code or data, please open an issue or contact the authors directly.
